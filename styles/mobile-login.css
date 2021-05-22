@@ -1,0 +1,55 @@
+/* Aditional CSS - Login - Mobile*/
+#view-mobile-login .to-back {
+  color: #215e99;
+}
+
+#view-mobile-login .row {
+  padding-top: 60px;
+}
+
+#view-mobile-login .img-positive {
+  margin-top: 8px;
+  width: 210px;
+}
+
+#view-mobile-login .welcome-text-1 {
+  width: 100%;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-top: 30px;
+}
+
+#view-mobile-login form {
+  margin-top: 22px;
+  position: relative;
+}
+
+#view-mobile-login .text-inside-input-email {
+  top: 44px;
+}
+
+#view-mobile-login .text-inside-input-pass {
+  top: 139px;
+}
+
+#view-mobile-login .box-label-pass {
+  margin: 16px 0px 10px 0px;
+}
+
+#view-mobile-login .forgot-pass {
+  margin: 3px 0px 28px 0px;
+}
+
+#view-mobile-login .btn-login {
+  background: #ec552f;
+  border-color: #ec552f;
+}
+
+#view-mobile-login .btn-other-account {
+  color: #215e99;
+  border: 2px solid #215e99;
+}
+
+#view-mobile-login .text-final-acc {
+  padding-top: 120px;
+}

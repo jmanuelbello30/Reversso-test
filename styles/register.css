@@ -1,0 +1,96 @@
+/* Aditional CSS - Register*/
+.row-r {
+  padding: 85px 0px 0px 0px;
+}
+
+.register-text {
+  margin: 0px 0px 30px 0px;
+}
+
+/*input Name*/
+.box-label-name {
+  margin: 10px 0px 10px 0px;
+}
+
+.text-inside-input-name {
+  position: absolute;
+  left: 10px;
+  top: 193px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #7f8e9d;
+}
+
+/*corrections in inputs and text*/
+.new-top-txt-ins-in {
+  top: 282px;
+}
+
+.new-top-icon {
+  top: -31px;
+  bottom: 31px;
+  left: 150px;
+}
+
+/*title register form*/
+.adjust-wd {
+  width: 298px;
+}
+
+/* other corrections in input text and icon*/
+.new-top-in-email {
+  top: 105px;
+}
+
+/*Checkbox terms and conditions*/
+.box-label-checkbox {
+  margin: 0px 0px 30px 0px;
+}
+
+.terms {
+  width: 24px;
+  height: 24px;
+  opacity: 0.5;
+  margin: 20px 0px 30px 0px;
+  float: left;
+}
+
+.letters-checkbox-label {
+  width: 199px;
+  font-family: Avenir;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ec552f;
+  padding: 23px 0px 0px 5px;
+  float: left;
+}
+
+/*other corrections in form last section*/
+.new-mg-another-acc {
+  margin: 30px 0px 0px 0px;
+}
+
+.new-mg-text-final {
+  padding: 50px 0px 30px 0px;
+}
+
+/*Aditionals styles mobile */
+#view-mobile-login.view-mobile-register .text-inside-input-pass {
+  top: 227px;
+}
+
+#view-mobile-login.view-mobile-register .text-inside-input-name {
+  top: 132px;
+}
+
+#view-mobile-login.view-mobile-register .icon-eye {
+  left: 47px;
+}
+
+#view-mobile-login.view-mobile-register .text-final-acc {
+  padding-top: 30px;
+}

@@ -1,0 +1,10 @@
+/* Mobile responsive styles*/
+#view-mobile-login.view-mobile-register .accounts-box {
+  margin-bottom: 17px;
+  margin-top: -8px;
+}
+
+#view-mobile-login.view-mobile-register .box-content-account {
+  padding: 0px 0px 4px 0px;
+  margin-top: -13px;
+}

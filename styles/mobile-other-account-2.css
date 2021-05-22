@@ -1,0 +1,62 @@
+/* Mobile responsive styles*/
+#view-mobile-login .pop-up {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: #000;
+  opacity: 0.8;
+}
+
+#view-mobile-login .accounts {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0;
+  padding-top: 10px;
+  border-radius: 15px 15px 0 0;
+  margin: 0;
+  background: #ffffff;
+}
+
+#view-mobile-login .accounts hr {
+  width: 18%;
+  margin-bottom: 37px;
+  border-color: #c7cad9;
+  background-color: #c7cad9;
+}
+
+#view-mobile-login .accounts .welcome-text-1 {
+  color: #215e99;
+}
+
+#view-mobile-login .accounts .accounts-box {
+  width: 81%;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  margin-top: -8px;
+}
+
+#view-mobile-login .accounts .btn-other-account {
+  color: #215e99;
+  border: 2px solid #c7cad9;
+}
+
+#view-mobile-login .accounts .box-icon-x {
+  float: left;
+}
+
+#view-mobile-login .accounts .welcome-text-1 {
+  display: contents;
+}
+
+#view-mobile-login .accounts .box-content-account {
+  padding: 0px 0px 4px 0px;
+  margin-top: 0;
+}
+
+#view-mobile-login .accounts .color-icon-x {
+  color: #215e99;
+}

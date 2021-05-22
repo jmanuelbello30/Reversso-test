@@ -1,0 +1,60 @@
+/* Mobile responsive styles*/
+#view-mobile-other-account .pop-up {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: #000;
+  opacity: 0.8;
+}
+
+#view-mobile-other-account .accounts {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0;
+  padding-top: 10px;
+  border-radius: 15px 15px 0 0;
+  margin: 0;
+  background: #ffffff;
+}
+
+#view-mobile-other-account .accounts hr {
+  width: 18%;
+  margin-bottom: 37px;
+  border-color: #c7cad9;
+  background-color: #c7cad9;
+}
+
+#view-mobile-other-account .accounts .welcome-text-1 {
+  color: #215e99;
+}
+
+#view-mobile-other-account .accounts .accounts-box {
+  width: 81%;
+  margin: 0 auto;
+  margin-bottom: 49px;
+}
+
+#view-mobile-other-account .accounts .btn-other-account {
+  color: #215e99;
+  border: 2px solid #c7cad9;
+}
+
+#view-mobile-other-account .box-icon-x {
+  float: left;
+}
+
+#view-mobile-other-account .welcome-text-1 {
+  display: contents;
+}
+
+#view-mobile-other-account .box-content-account {
+  padding: 0px 0px 15px 0px;
+}
+
+#view-mobile-other-account .color-icon-x {
+  color: #215e99;
+}

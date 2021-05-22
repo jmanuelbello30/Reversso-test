@@ -1,0 +1,417 @@
+/*font avenir and Mulish*/
+@font-face {
+  font-family: avenir-black;
+  src: url(fonts/AvenirLTStd-Black.otf);
+}
+
+@font-face {
+  font-family: avenir;
+  src: url(fonts/AvenirLTStd-Book.otf);
+}
+
+@font-face {
+  font-family: Mulish;
+  src: url(fonts/Mulish/static/Mulish-Regular.ttf);
+}
+
+/*General Styles*/
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  min-height: 100%;
+}
+
+.contenedor > div {
+  flex: 1;
+  display: flex;
+}
+
+.row-0 {
+  background: #fbefec;
+}
+.row-1 {
+  background: #ffffff;
+}
+
+.content {
+  position: relative;
+  width: 414px;
+  height: 100%;
+  text-align: center;
+  display: inline-block;
+}
+
+.content-left {
+  float: right;
+  text-align: left;
+}
+
+.content-right {
+  float: left;
+}
+
+.row {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 155px 0px 0px 0px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/*Section 1*/
+.img-positive {
+  position: relative;
+  width: 208.11px;
+  top: -275px;
+  left: -20px;
+}
+
+.img-sun {
+  margin: 0px 0px 0px 250px;
+  left: -16px;
+  top: -21px;
+  position: relative;
+}
+
+/*title-page*/
+.title-page {
+  font-family: Mulish;
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: #215e99;
+  text-align: initial;
+}
+
+/* Section 2*/
+/*Login title*/
+.welcome-text-1 {
+  width: 126px;
+  height: 32px;
+  font-family: avenir-black;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ec552f;
+  margin: 0px 0px 9px 0px;
+}
+
+.welcome-text-2 {
+  width: 280px;
+  height: 24px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ec552f;
+  margin: 0px 0px 29px 0px;
+}
+
+/*Login*/
+.login-form {
+  width: 100%;
+  text-align: left;
+}
+
+/* inputs*/
+.generic-input {
+  width: 100%;
+  height: 48px;
+  border: 0.7px solid #c7cad9;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+/* div labels*/
+.box-label-email {
+  margin: 0px 0px 10px 0px;
+}
+
+.box-label-pass {
+  margin: 10px 0px 10px 0px;
+}
+
+/*Labels inputs*/
+.labels-inputs {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #215e99;
+}
+
+/*text inside inputs*/
+.text-inside-input-email {
+  position: absolute;
+  left: 10px;
+  top: 138px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #7f8e9d;
+}
+
+.text-inside-input-pass {
+  position: absolute;
+  left: 10px;
+  top: 225px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #7f8e9d;
+}
+
+.icon-eye {
+  position: relative;
+  left: 380px;
+  color: #7f8e9d;
+  opacity: 0.5;
+  font-size: 15px;
+  bottom: 31px;
+}
+
+/*text forgot pass*/
+.forgot-pass {
+  font-family: Avenir;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  color: #215e99;
+  margin: 0px 0px 25px 0px;
+}
+
+/*button login*/
+.btn-login {
+  cursor: pointer;
+  font-family: Avenir;
+  font-style: normal;
+  width: 100%;
+  height: 52px;
+  color: #ffffff;
+  background: #215e99;
+  border-radius: 4px;
+  border-color: #215e99;
+  border-style: none;
+}
+
+/*section login with another account*/
+.text-another-acc {
+  margin: 40px 0px 0px 0px;
+  font-family: Avenir;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ec552f;
+}
+
+/*Icons buttons*/
+.align-btn-login-icons {
+  width: 201px;
+  height: 48px;
+  left: 1009px;
+  top: 644px;
+  display: inline-flex;
+  margin: 20px 0px 0px 0px;
+}
+
+.btn-apple {
+  cursor: pointer;
+  width: 49px;
+  height: 48px;
+  top: 644px;
+  border-radius: 114px;
+  margin: 0px 27px 0px 0px;
+  border-color: #c7cad9;
+  border-style: none;
+}
+
+.icon-apple {
+  font-size: 24px;
+}
+
+.btn-facebook {
+  cursor: pointer;
+  width: 49px;
+  height: 48px;
+  top: 644px;
+  border-radius: 114px;
+  margin: 0px 27px 0px 0px;
+  border-color: #c7cad9;
+  border-style: none;
+}
+
+.icon-facebook {
+  font-size: 24px;
+  color: #215e99;
+}
+
+.btn-google {
+  cursor: pointer;
+  width: 49px;
+  height: 48px;
+  top: 644px;
+  border-radius: 114px;
+  margin: 0px 27px 0px 0px;
+  border-color: #c7cad9;
+  border-style: none;
+}
+
+.icon-google {
+  font-size: 24px;
+  background: conic-gradient(
+      from -45deg,
+      #ea4335 110deg,
+      #4285f4 90deg 180deg,
+      #34a853 180deg 270deg,
+      #fbbc05 270deg
+    )
+    72% 54%/151% 151% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+/*Register text*/
+.text-final-acc {
+  font-family: Avenir;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #215e99;
+  padding: 57px 0px 16px 0px;
+}
+
+.go-register {
+  margin: 0px 0px 0px 5px;
+  text-decoration: none;
+  color: #ec552f;
+}
+
+/*---------------------------*/
+/* Mobile responsive styles*/
+.contenedor-mobile {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .contenedor-desktop {
+    display: none;
+  }
+  .contenedor-mobile {
+    display: block;
+  }
+}
+/*--------max-width--------*/
+
+/* Logo image*/
+.contenedor-mobile .img-sun {
+  top: -23px;
+  left: 0;
+  margin: 0 0 80px 14px;
+  width: 100px;
+  display: block;
+}
+
+.contenedor-mobile .img-positive {
+  top: 0px;
+  margin-top: 56px;
+  left: 0;
+  width: 320px;
+}
+
+/*Logo image*/
+.contenedor-mobile .content {
+  text-align: left;
+  width: 83%;
+}
+
+.contenedor-mobile {
+  width: 100%;
+}
+
+/*swipe up*/
+.contenedor-mobile hr {
+  background: #215e99;
+  border: 2px solid #215e99;
+  width: 29%;
+  border-radius: 5px;
+}
+
+/*Home buttons*/
+.contenedor-mobile .btn-other-account {
+  cursor: pointer;
+  font-family: Avenir;
+  font-style: normal;
+  width: 100%;
+  height: 52px;
+  color: #ec552f;
+  background: transparent;
+  border-radius: 4px;
+  border-style: none;
+  border: 2px solid #ec552f;
+  margin-top: 20px;
+}
+
+.contenedor-mobile .btn-login {
+  width: 100%;
+}
+
+/*Rest of home*/
+.contenedor-mobile .img-box-center {
+  text-align: center;
+}
+
+.contenedor-mobile .welcome-text-2 {
+  line-height: 46px;
+}
+
+.contenedor-mobile .welcome-text-1 {
+  width: 100%;
+  font-size: 18px;
+  line-height: 0;
+}
+
+.contenedor-mobile .row {
+  display: block;
+}
+
+.additional-correction-row {
+  padding: 145px 0px 0px 0px;
+}
+
+.contenedor-mobile .text-final-acc {
+  padding-top: 44px;
+}
+
+/*Icons*/
+.contenedor-mobile .fa-apple {
+  padding: 0px 5px 0px 0px;
+  color: #000000;
+}
+
+.contenedor-mobile .fa-facebook-f {
+  padding: 0px 5px 0px 0px;
+  font-size: 18px;
+}
+
+.contenedor-mobile .fa-google {
+  padding: 0px 5px 0px 0px;
+  font-size: 20px;
+}

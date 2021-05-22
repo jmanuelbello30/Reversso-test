@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles/index.css" />
+        <link rel="stylesheet" type="text/css" href="styles/mobile-other-account.css" />
+        <title>Be Positive</title>
+    </head>
+    <body>
+        <!-- Desktop section -->
+        <div class="contenedor contenedor-desktop">
+            <div class="row-0 row">
+                <!-- First section -->
+                <div class="content content-left">
+                    <div class="title-page">Gestiona tus seguidores de forma segura</div>
+                    <div><img src="images/smilesun.png" alt="" class="img-sun"></div>
+                    <div><img src="images/bepositive.png" alt="" class="img-positive"></div>
+                </div>
+            </div>
+            <!-- Second section -->
+            <div class="row-1  row">
+                <div class="content content-right">
+                    <div class="welcome-text-1">Bienvenido</div>
+                    <div class="welcome-text-2">Inicie sesión ingresando su cuenta aquí</div>
+                    <!-- Form login -->
+                    <form action="" class="login-form">
+                        <div class="box-label-email">
+                            <label for="email" class="labels-inputs">Email/Nombre de usuario</label>
+                        </div>
+                        <div class="text-inside-input-email">Ingresa email o nombre de usuario</div>
+                        <input id="email"type="text" class="generic-input">
+
+                        <div class="box-label-pass">
+                            <label for="password" class="labels-inputs">Contraseña</label>
+                        </div>
+                        <div class="text-inside-input-pass">Ingresa contraseña</div>
+                        <input id="password" type="text" class="generic-input">
+                        <i class="far fa-eye icon-eye"></i>
+                    </form>
+                    <div class="forgot-pass" >¿Olvidaste tu contraseña?</div>
+                    <div><button type="submit" class="btn-login" data-target="#">Iniciar Sesión</button></div>
+                    <div class="text-another-acc" >O inicia sesión con otra cuenta</div>
+                    <!-- Icons section -->
+                    <div class=align-btn-login-icons>
+                        <div>
+                            <button type="text" class="btn-apple" data-target="#">
+                            <i class="fab fa-apple icon-apple"></i>
+                            </button>
+                        </div> 
+                        <div>
+                            <button type="text" class="btn-facebook" data-target="#">
+                            <i class="fab fa-facebook-f icon-facebook"></i>
+                            </button>
+                        </div>
+                        <div>
+                            <button type="text" class="btn-google" data-target="#">
+                                <i class="fab fa-google icon-google"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="text-final-acc" >¿Eres un nuevo usuario?<a class="go-register" href="register.html">Crear una cuenta</a></div>                
+                </div> 
+            </div>
+        </div>
+
+        <!-- Mobile Section -->
+        <div class="contenedor contenedor-mobile" id="view-mobile-other-account">
+            <div class="row-0 row">
+                <div class="content">
+                    <div class="img-box-center"><img src="images/bepositive.png" alt="" class="img-positive"></div>
+                    <div class="img-box-center"><img src="images/smilesun.png" alt="" class="img-sun"></div>
+                    <div class="welcome-text-2">Bienvenido!</div>
+                    <div class="welcome-text-1">Conecta con tus seguidores</div>
+                    <div><button type="submit" class="btn-login" data-target="#">Iniciar Sesión</button></div>
+                    <div><button type="submit" class="btn-other-account" data-target="#">Iniciar sesión con otra cuenta</button></div>
+                    <div class="text-final-acc" >¿Eres un nuevo usuario?<a class="go-register" href="#">Crear una cuenta</a></div>  
+                    <hr></hr>
+                </div>
+            </div>
+            <div class="row pop-up"></div>
+            <div class="row accounts">
+                <div class="accounts-box">
+                    <a href="index.html"><hr></hr></a>
+                    <div class="box-content-account">
+                        <div class="box-icon-x"><a href="index.html"><i class="fas fa-times color-icon-x"></a></i></div>
+                        <div class="welcome-text-1">Selecciona tu cuenta</div>
+                    </div>
+                    <div><button type="submit" class="btn-other-account" data-target="#"><i class="fab fa-apple icon-apple"></i>Continua con Apple ID</button></div>
+                    <div><button type="submit" class="btn-other-account" data-target="#"><i class="fab fa-facebook-f icon-facebook"></i>Continua con Facebook</button></div>
+                    <div><button type="submit" class="btn-other-account" data-target="#"><i class="fab fa-google icon-google"></i>Continua con Google</button></div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://kit.fontawesome.com/c8c4476de2.js" crossorigin="anonymous"></script>
+    </body>
+</html>
